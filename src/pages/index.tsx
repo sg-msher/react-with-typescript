@@ -12,6 +12,12 @@ export default function Home() {
         <Card title="event" contents="효과적인 event handling" url="/eventHandling" />
         <Card title="error boundary" contents="에러 경계 사용법" url="/errorHandling" />
         <Card title="reducer" contents="reducer를 효과적으로 사용하기" url="/useHook/reducer" />
+        <Card title="flushSync" contents="reducer를 효과적으로 사용하기" url="/react18/useFlushSync" />
+        <Card title="hoc" contents="hoc+Suspence" url="/hoc" />
+      </div>
+
+      <div className='font-black text-5xl p-10'>ETC</div>
+      <div className="grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <Card title="infinite scroll" contents="Example of infinite scroll" url="/ui/infinitScroll" />
         <Card title="jotai" contents="Example of jotai" url="/useHook/jotai" />
         <Card title="framer" contents="Example of framer" url="/animate/framer" />
