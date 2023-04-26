@@ -58,6 +58,3 @@ const AddTodo = React.memo(({ handleAdd }: {handleAdd: (input: string) => void})
     </form>
   );
 });
-  
-  
-

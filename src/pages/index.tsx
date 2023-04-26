@@ -14,6 +14,7 @@ export default function Home() {
         <Card title="reducer" contents="reducer를 효과적으로 사용하기" url="/useHook/reducer" />
         <Card title="flushSync" contents="reducer를 효과적으로 사용하기" url="/react18/useFlushSync" />
         <Card title="hoc" contents="hoc+Suspence" url="/hoc" />
+        <Card title="UI" contents="UI 모음" url="/ui/combo" />
       </div>
 
       <div className='font-black text-5xl p-10'>ETC</div>

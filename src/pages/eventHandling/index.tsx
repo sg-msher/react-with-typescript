@@ -6,7 +6,7 @@ function useInputState(initialValue = '') {
       ({ target: { value } }) => {
         setValue(value);
       },
-      [value]
+      []
     );
     // as const = read-only
     return [value, handleValueChange] as const;

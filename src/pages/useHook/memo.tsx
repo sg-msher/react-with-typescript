@@ -33,5 +33,3 @@ const Lyric = React.memo((props: LyricProps) => {
 }, (prev, next) => {
     return prev.id === next.id;
 });
-
-Lyric.displayName = "Lyric";
